@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}News{% endblock %}
+
+{% block content %}
+        <div class="text-center py-5">
+            <h2>Новости клуба</h2>
+        </div>
+
+        {% for el in news %}
+            <div class="card" style="width: 18rem;">
+                <img src="{{ el.image.url }}" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">{{ el.title }}</h5>
+                    <p class="card-text">{{ el.lead }}</p>
+                    <a href="#" class="btn btn-primary">Подробно</a>
+                </div>
+            </div>
+        {% endfor %}
+
+{% endblock %}

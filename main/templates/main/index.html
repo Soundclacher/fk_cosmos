@@ -1,0 +1,70 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}FC Cosmos{% endblock %}
+
+
+{% block content %}
+    {% include 'main/slider.html' %}
+    <div class="text-center my-5">
+        <h2>Звезды ближе чем кажутся!</h2>
+    </div>
+
+    <section class="mt-5">
+        <div class="container my-5 bg-light border-top border-bottom">
+            <div class="row ">
+                <div class="col-md-4 col-sm-12">
+                    <img class="mx-5" src="{% static 'main/img/logo.png' %}" width="250" height="250" alt="">
+                </div>
+                <div class="col-md-6 col-sm-12 text-center my-3 mx-5">
+                    <h3 class="my-3">Начни с нами свой путь к успеху</h3>
+                    <p>Футбольный клуб "Космос" Ставрополь обучает футболу детей от 4 до 17 лет. Занятия проходят на территории МБУ СОШ №21 ( поле с искусственным покрытием и зал ). Тренировки проводят высоко квалифицированные и дипломированные специалисты. Индивидуальный подход и современные методы тренировки.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card card-body bg-light">
+                        <img class="w-100" height="400" src="{% static 'main/img/9.jpg' %}" alt="">
+                        <h3 class="mx-auto">Lorem ipsum</h3>
+                        <p class="text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-body bg-light">
+                        <img class="w-100" src="{% static 'main/img/5.jpg' %}" alt="">
+                        <h3 class="mx-auto">Lorem ipsum</h3>
+                        <p class="text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                 <div class="col-4">
+                    <div class="card card-body bg-light my-5">
+                        <img class="w-100" src="{% static 'main/img/12.jpg' %}" alt="">
+                        <h3 class="mx-auto">Lorem ipsum</h3>
+                        <p class="text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card card-body bg-light my-5">
+                        <img class="w-100" height="400" src="{% static 'main/img/11.jpg' %}" alt="">
+                        <h3 class="mx-auto">Lorem ipsum</h3>
+                        <p class="text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-5">
+            <h3>Тренерский состав</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-6">
+                    <img src="{% static 'main/img/13.jpg' %}" alt="">
+                </div>
+                <div class="col col-6">
+                    <img src="{% static 'main/img/14.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
